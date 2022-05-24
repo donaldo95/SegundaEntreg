@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#contact {
+    padding: 60px 50px;
+  }
+
+.bg-grey {
+    background-color: #f6f6f6;
+  }
+
+#services {
+    padding: 60px 50px;
+}
+
+#indice:hover {
+  background-color: rgb(212, 94, 47);
+}
