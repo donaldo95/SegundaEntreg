@@ -50,3 +50,31 @@ nav{
     width: 100%;
   }
 }
+
+.prods img {
+  filter: blur(0);
+  animation-name: imgBlur;
+  animation-duration: 3s;
+}
+
+@keyframes imgBlur {
+  from {filter: blur(4px);}
+  to {filter: blur(0);}
+}
+
+.prods img:hover {
+  border-radius: 15px;
+  transition: 1s;
+  cursor: pointer;
+  transform: scale(1.2);
+  outline: solid 2px black;
+}
+
+hr.solid {
+  border-top: 1px solid rgb(161, 161, 161);
+}
+ 
+hr {
+  margin: 10px;
+}
+
